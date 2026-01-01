@@ -15,4 +15,9 @@ public String indexPage() {
 	
 }
 
+@GetMapping("/loginpage")
+public String loginPage() {
+	return "login";
+}
+
 }
